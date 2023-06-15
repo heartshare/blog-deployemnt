@@ -4,9 +4,10 @@ metadata:
   namespace: docfunc
   name: redis-service
 spec:
-  clusterIP: None
   selector:
     app: redis
+  type: ClusterIP
   ports:
     - port: 6379
+      targetPort: 6379
       protocol: TCP
