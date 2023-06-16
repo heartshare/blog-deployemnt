@@ -39,7 +39,7 @@ data:
   MAIL_FROM_ADDRESS: "no-reply@mail.docfunc.com"
   MAIL_FROM_NAME: "DocFunc"
   # aws
-  AWS_DEFAULT_REGION: "ap-northeast-1"
+  AWS_DEFAULT_REGION: "us-west-2"
   AWS_BUCKET: "docfunc-files"
   AWS_USE_PATH_STYLE_ENDPOINT: "false"
   # laravel scout
