@@ -14,6 +14,8 @@ spec:
     metadata:
       labels:
         app: docfunc-horizon
+      annotations:
+        reloader.stakater.com/auto: "true"
     spec:
       containers:
         - name: docfunc-horizon

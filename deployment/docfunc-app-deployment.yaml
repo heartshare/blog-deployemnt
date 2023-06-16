@@ -5,6 +5,8 @@ metadata:
   name: docfunc-app
   labels:
     app: docfunc-app
+  annotations:
+    reloader.stakater.com/auto: "true"
 spec:
   replicas: 2
   strategy:
