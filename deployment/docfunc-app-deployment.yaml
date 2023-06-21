@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: docfunc-app
-          image: nella0128/docfunc-app-amd64
+          image: nella0128/docfunc-app
           resources:
             limits:
               cpu: "0.5"

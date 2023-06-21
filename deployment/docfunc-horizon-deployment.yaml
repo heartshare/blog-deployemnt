@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: docfunc-horizon
-          image: nella0128/docfunc-horizon-amd64
+          image: nella0128/docfunc-horizon
           resources:
             limits:
               cpu: "0.5"

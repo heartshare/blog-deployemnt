@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: docfunc-scheduler
-          image: nella0128/docfunc-scheduler-amd64
+          image: nella0128/docfunc-scheduler
           resources:
             limits:
               cpu: "0.5"
