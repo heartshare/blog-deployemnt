@@ -26,7 +26,7 @@ spec:
           image: nella0128/docfunc-app
           resources:
             limits:
-              cpu: "1"
+              cpu: "2"
               memory: "1Gi"
           envFrom:
             - configMapRef:
