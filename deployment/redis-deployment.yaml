@@ -21,7 +21,7 @@ spec:
           resources:
             limits:
               cpu: "0.5"
-              memory: "1Gi"
+              memory: "500Mi"
           env:
             - name: REDIS_PASSWORD
               valueFrom:
